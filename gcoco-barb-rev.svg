@@ -15,7 +15,7 @@
    version="1.1"
    id="svg9913"
    inkscape:version="0.92.2 2405546, 2018-03-11"
-   sodipodi:docname="gcoco3.svg">
+   sodipodi:docname="gcoco-barb-rev.svg">
   <defs
      id="defs9907">
     <clipPath
@@ -35,7 +35,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-53.276772"
+     inkscape:cx="-344.70534"
      inkscape:cy="93.806652"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
@@ -59,7 +59,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -869,7 +869,8 @@
     <g
        aria-label="GLEN COCOA"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;line-height:1.25;font-family:'League Gothic';-inkscape-font-specification:'League Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:1.05833328px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       id="text8901">
+       id="text8901"
+       transform="translate(0,0.35983769)">
       <path
          d="m 69.325478,82.636695 v -2.551289 c 0,-0.451556 -0.09031,-0.767644 -0.316089,-1.038578 -0.112889,-0.112889 -0.293511,-0.180622 -0.496711,-0.180622 -0.428978,0 -0.632178,0.316089 -0.722489,0.6096 -0.06773,0.180622 -0.09031,0.383822 -0.09031,0.6096 v 9.979378 c 0,0.474133 0.112888,0.790222 0.338666,1.038578 0.112889,0.112888 0.270934,0.180622 0.474134,0.180622 0.428977,0 0.632177,-0.270934 0.722488,-0.6096 0.06773,-0.158045 0.09031,-0.361245 0.09031,-0.6096 v -3.002845 h -0.970845 v -2.054577 h 3.409245 v 8.263466 H 70.3189 l -0.293511,-0.790222 c -0.451556,0.564444 -1.106311,0.970844 -1.896534,0.970844 -0.790222,0 -1.332089,-0.2032 -1.738489,-0.564444 -0.4064,-0.338667 -0.677333,-0.767644 -0.857955,-1.2192 -0.2032,-0.519289 -0.293511,-1.128889 -0.270934,-1.806222 v -9.776178 c 0.02258,-0.654756 0.158045,-1.264356 0.4064,-1.783644 0.2032,-0.451556 0.496712,-0.903112 0.948267,-1.241778 0.451556,-0.338667 1.083734,-0.564445 1.896534,-0.564445 0.8128,0 1.4224,0.225778 1.873955,0.564445 0.451556,0.338666 0.767645,0.790222 0.970845,1.241778 0.248355,0.519288 0.383822,1.128888 0.4064,1.783644 v 2.551289 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;font-family:'League Gothic';-inkscape-font-specification:'League Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:1.05833328px;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
