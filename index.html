@@ -5,11 +5,109 @@
 <link rel="icon"
       type="image/png"
       href="favicon-256.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" integrity="sha256-HtCCUh9Hkh//8U1OwcbD8epVEUdBvuI8wj1KtqMhNkI=" crossorigin="anonymous" />
+
+<style>
+.hero-content {
+  height: 100vh;
+  min-height: 100vh;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.divimg {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 4s;
+}
+.hero1 {
+    background-image: url("imgs/hero1.1600.jpg");
+}
+.hero2 {
+    background-image: url("imgs/hero2.1600.jpg");
+}
+.hero3 {
+    background-image: url("imgs/hero3.1600.jpg");
+}
+.img-hero {
+    max-height: 64vh;
+    width: 100%;
+}
+@media screen and (max-width: 1024px) {
+    .hero1 {
+        background-image: url("imgs/hero1.960.jpg");
+    }
+    .hero2 {
+        background-image: url("imgs/hero2.960.jpg");
+    }
+    .hero3 {
+        background-image: url("imgs/hero3.960.jpg");
+    }
+    .img-hero {
+        width: 70vw;
+    }
+}
+
+
+</style>
 </head>
 <body>
-<img src="gcoco-hq.svg"/>
-<img src="gcoco-barb.svg"/>
-<img src="gcoco-barb-rev.svg"/>
+
+<!-- HERO Section -->
+
+<div id="ss">
+    <div>
+        <div class="hero-content  d-flex hero1" >
+            <div class="row mx-auto">
+                <div class="divimg col col-mb-10 my-auto animated fadeIn" >
+                    <img class="img-hero" src="gcoco-barb-white.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="hero-content d-flex hero2" >
+            <div class="row mx-auto">
+                <div class="divimg col col-mb-10 my-auto animated fadeIn" >
+                    <img class="img-hero" src="gcoco-barb-white.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="hero-content d-flex hero3" >
+            <div class="row mx-auto">
+                <div class="divimg col col-mb-10 my-auto animated fadeIn" >
+                    <img class="img-hero" src="gcoco-barb-white.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0=" crossorigin="anonymous"></script>
+<script>
+$(function () {
+		$("#ss").slick({
+			dots: false,
+			arrows:false,
+			autoplay: true,
+			autoplaySpeed: 6000,
+			speed: 1600,
+			infinite: true,
+			pauseOnHover: false,
+			pauseOnFocus: false,
+			fade:true
+		});
+});
+</script>
+
 </body>
 
 </html>
